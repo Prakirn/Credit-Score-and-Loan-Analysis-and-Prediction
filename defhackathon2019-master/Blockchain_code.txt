@@ -1,0 +1,9 @@
+//This is the last (main) section of the blockchain code. 
+//Blockchain code in Terminal using Blockstack.
+
+which npm
+git clone git@github.com:blockstack/blockstack-todos.git
+cd blockstack-todos
+npm install
+pwd 
+npm run start

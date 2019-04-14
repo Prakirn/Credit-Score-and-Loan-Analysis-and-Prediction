@@ -1,0 +1,14 @@
+{
+  "name":"Loan Offer",
+  "description":"",
+  "icons":{"128":"logo.png"},
+  "version":"0.2.0",
+  "manifest_version":2,
+  "content_scripts": [
+      {
+        "matches": ["https://www.amazon.com/gp/cart/*","https://apple.com/*"],
+        "js": ["jquery.min.js","script.js"],
+        "css":["style.css"]
+      }
+    ]
+  }

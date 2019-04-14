@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="301px" height="152px" viewBox="0 0 301 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M301,150.5 C301,67.3811452 233.618855,0 150.5,0 C67.3811452,0 0,67.3811452 0,150.5 C0,152 56,150.5 301,150.5 Z" id="path-1"></path>
+        <path d="M258,151.523705 C258,92.1400023 209.646753,44 150,44 C90.353247,44 42,92.1400023 42,151.523705 C42,152.595369 82.1860465,151.523705 258,151.523705 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Path-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <polygon id="Path-5" fill="#FDB846" mask="url(#mask-2)" points="148 153 330 151 290.864078 43"></polygon>
+            <polygon id="Path-4" fill="#029F7D" mask="url(#mask-2)" points="150 151 293.5 50 204 -8"></polygon>
+            <polygon id="Path-3" fill="#029F7D" mask="url(#mask-2)" points="149.5 151 247.867057 -16 131 -37"></polygon>
+            <polygon fill="#029F7D" mask="url(#mask-2)" points="150.5 -4 150.5 167 -26 163 33 -26"></polygon>
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Mask-Copy" fill="#E8E8E8" xlink:href="#path-3"></use>
+        </g>
+    </g>
+</svg>

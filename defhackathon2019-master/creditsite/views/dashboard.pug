@@ -1,0 +1,73 @@
+extends layout
+
+block content
+  h1.text-center Even's Credit Score Dashboard
+  p.lead.text-center Hello Gregor, welcome to your dashboard!
+  hr.bigBreak
+  .row
+    .col-md-8
+      .row.factors
+        .col-md-4.factorBox
+          h2.factorTitle Total Debt
+          div.factorHolder.row
+            div.percentageHolder.col-md-6
+              div.percentageLabel 31%
+              div.weightLabel Weight
+            div.percentHolder.col-md-6
+              div.percentValue $8900
+          div.verdict Okay
+        .col-md-4.factorBox
+          h2.factorTitle Number of Late Payments
+          div.factorHolder.row
+            div.percentageHolder.col-md-6
+              div.percentageLabel 19%
+              div.weightLabel Weight
+            div.percentHolder.col-md-6
+              div.percentValue 8
+          div.verdict Bad
+        .col-md-4.factorBox
+          h2.factorTitle Monthly Credit Limit Used
+          div.factorHolder.row
+            div.percentageHolder.col-md-6
+              div.percentageLabel 16%
+              div.weightLabel Weight
+            div.percentHolder.col-md-6
+              div.percentValue 63%
+          div.verdict Okay
+        .col-md-4.factorBox
+          h2.factorTitle Annual Income
+          div.factorHolder.row
+            div.percentageHolder.col-md-6
+              div.percentageLabel 8%
+              div.weightLabel Weight
+            div.percentHolder.col-md-6
+              div.percentValue $75,000
+          div.verdict Good
+        .col-md-4.factorBox
+          h2.factorTitle Income-to-Debt Ratio
+          div.factorHolder.row
+            div.percentageHolder.col-md-6
+              div.percentageLabel 26%
+              div.weightLabel Weight
+            div.percentHolder.col-md-6
+              div.percentValue 93%
+          div.verdict Excellent
+    .col-md-2
+      .row
+        div#scoreHolder
+          div#scoreViz
+            img(src='rainbow.png')
+          div#scoreNumber 72
+          div#scoreLetter S
+            .scoreInfo ?
+              ul.scoreLegend
+                li High Savings
+                  span.letterTitle S
+                li High Income
+                  span.letterTitle I
+                li Low Credit Used
+                  span.letterTitle C
+                li Few Late Payments
+                  span.letterTitle P
+                li Low Debt
+                  span.letterTitle D

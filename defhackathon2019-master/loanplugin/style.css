@@ -1,0 +1,179 @@
+#loanHolder {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.myscore {
+  padding-right: 15px;
+  text-decoration: underline;
+}
+
+.myscore:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.applybutton {
+  background: #0066c0;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 10px;
+}
+.applybutton:hover {
+  text-decoration: none;
+  color: white;
+  background: #00396b;
+}
+
+/* LOAN FORM */
+#loanForm {
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 20px;
+  width: 250px;
+  vertical-align: top;
+}
+
+#loanForm label {
+  line-height: normal;
+  margin-bottom: -10px;
+}
+
+#loanInfoHolder {
+  width: 510px;
+}
+
+#loanResponses {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
+}
+
+.custom-button-text {
+  line-height: 30px;
+}
+
+#sc-buy-box-ptc-button .a-button-inner .a-button-text{
+  display: none;
+}
+
+#sc-buy-box-ptc-button .a-button-inner .a-button-input{
+  display: none;
+}
+
+/* MODAL */
+
+.customModal {
+  background: rgba(0, 0, 0, .5);
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.customModal #yes{
+  float: right;
+}
+
+.customModal #no{
+  /* float: left; */
+}
+
+.customModal #yes, .customModal #no {
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.customModal button {
+  color: black;
+  margin-top: 2rem;
+}
+
+
+.customModal #loanSubmit {
+  color: black;
+  display: block;
+  margin-top: 5px;
+  width: 163px;
+}
+
+.registerModalInner {
+  background: #17394d;
+  border-radius: 1rem;
+  color: white;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 100px auto;
+  padding: 2rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+  width: 600px;
+}
+
+.customModal .scoreInfo {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
+  text-shadow: none;
+}
+
+.customModal .modalHeader {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.customModal .modalHeader .scoreNumber {
+  color: #3bff00;
+}
+
+#offerList {
+  overflow-y: auto;
+  line-height: normal;
+  max-height: 300px;
+  margin-left: 0;
+}
+
+#offerList li {
+  color: #fff;
+}
+
+#offerList li .label {
+  color: #949494;
+}
+
+#offerList li {
+  margin-bottom: 15px;
+}
+
+#offerList button {
+  margin-top: 5px;
+}
+
+#offerList .acceptLoan {
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    background-color: rgb(160, 160, 160);
+    background-color: buttonface;
+    color: black;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.actionHolder .fakeButton{
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px 7px 2px;
+  background-color: rgb(160, 160, 160);
+  background-color: buttonface;
+  color: black;
+  margin-top: 2rem;
+  display: block;
+  line-height: initial;
+  text-shadow: none;
+}
